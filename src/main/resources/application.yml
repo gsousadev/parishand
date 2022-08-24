@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:5000/parishand
+    username: root
+    password: root
+
+flyway:
+  validateMigrationNaming: false
